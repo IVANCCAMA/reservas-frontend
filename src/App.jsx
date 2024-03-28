@@ -11,10 +11,10 @@ function App() {
       <div className="App">
         <div className="row">
           {/* Menu */}
-          <div className="col-3 border border-1 border-black">
+          <div className="col-2 border border-1 border-black">
             Menu aqui
           </div>
-          <div className="col-9">
+          <div className="col-10">
             <Routes>
               <Route index element={<ExamplePage />} />
               <Route path="/home" element={<HomePage />} />
